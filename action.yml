@@ -1,12 +1,12 @@
 name: 'l710t'
 description: 'test'
- inputs:
-   number1:
-     required: true
-     default: 0
-   number2:
-     required: true
-     default: 0
+inputs:
+  number1:
+    required: true
+    default: 0
+  number2:
+    required: true
+    default: 0
 outputs:
   result:
     description: 'output of the sum of numbers'
