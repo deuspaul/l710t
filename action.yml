@@ -1,5 +1,5 @@
 name: 'l710t'
- description: 'test'
+description: 'test'
  inputs:
    number1:
      required: true
