@@ -1,5 +1,5 @@
-name: l710t
- description: test
+name: 'l710t'
+ description: 'test'
  inputs:
    number1:
      required: true
@@ -9,7 +9,7 @@ name: l710t
      default: 0
 outputs:
   result:
-    description: output of the sum of numbers
+    description: 'output of the sum of numbers'
 runs:
   using: 'docker'
   image: 'Dockerfile'
