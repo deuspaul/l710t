@@ -1,0 +1,17 @@
+name: testDocker
+
+on:
+  push:
+
+jobs:
+  test-docker-action:
+    name: job to test a docker action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./
+        id: dockAct
+        with:
+          number1: 4
+          number2: 2
+      - run: echo ${{ steps.dockAct.outputs.result }}
