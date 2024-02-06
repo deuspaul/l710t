@@ -16,3 +16,5 @@ jobs:
           number1: 4
           number2: 2
       - run: echo ${{ steps.dockAct.outputs.result }}
+      - run: ls
+      - run: cat containerOutputFile.txt
