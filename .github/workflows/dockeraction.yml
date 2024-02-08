@@ -18,5 +18,5 @@ jobs:
       - run: echo ${{ steps.dockAct.outputs.result }}
       - run: ls
       - run: pwd
-      - run: echo $GITHUB_WORKSPACE
-      - run: ls ${{ github.workspace }}
+      - run: cat $GITHUB_WORKSPACE/containerOutputFile.txt
+      - run: cat ${{ github.workspace }}/containerOutputFile.txt
