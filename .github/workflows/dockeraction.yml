@@ -17,4 +17,6 @@ jobs:
           number2: 2
       - run: echo ${{ steps.dockAct.outputs.result }}
       - run: ls
-      - run: cat '${{ GITHUB_WORKSPACE }}/containerOutputFile.txt'
+      - run: pwd
+      - run: echo ${{ GITHUB_WORKSPACE }}
+      - run: ls ${{ GITHUB_WORKSPACE }}
